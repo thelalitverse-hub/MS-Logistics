@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MS Logistics — Nepal's trusted partner for packing, warehousing, and worldwide freight. Household relocation, diplomatic moves, and commercial logistics.">
+  <meta name="keywords" content="logistics, relocation, freight, warehousing, customs clearance, Nepal, packing, moving">
+  <meta name="author" content="MS Logistics Private Limited">
+  <meta property="og:title" content="MS Logistics | Packing, Warehousing & Worldwide Freight">
+  <meta property="og:description" content="From a single-household move to institutional cargo — handled with precision, care, and zero-damage commitment.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/hero/hero-main.jpg">
+  <title>MS Logistics | Packing, Warehousing & Worldwide Freight</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <div class="loader__logo">MS<span>Logistics</span></div>
+      <div class="loader__bar">
+        <div class="loader__progress" id="loaderProgress"></div>
+      </div>
+      <p class="loader__text">Moving With Precision...</p>
+    </div>
+  </div>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress" id="scrollProgress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Page scroll progress"></div>
+
+  <!-- Header -->
+  <header class="header" id="header" role="banner">
+    <div class="container header__container">
+      <a href="#home" class="header__logo" aria-label="BuildCraft Pro Home">
+        <span class="header__logo-icon">&#9670;</span>
+        BuildCraft<span>Pro</span>
+      </a>
+      <nav class="header__nav" id="mainNav" role="navigation" aria-label="Main navigation">
+        <ul class="header__menu">
+          <li><a href="#home" class="header__link active">Home</a></li>
+          <li><a href="#about" class="header__link">About</a></li>
+          <li><a href="#services" class="header__link">Services</a></li>
+          <li><a href="#projects" class="header__link">Projects</a></li>
+          <li><a href="#process" class="header__link">Process</a></li>
+          <li><a href="#testimonials" class="header__link">Testimonials</a></li>
+          <li><a href="#faq" class="header__link">FAQ</a></li>
+          <li><a href="#contact" class="header__link">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#contact" class="btn btn--primary header__cta">Get Free Quote</a>
+      <button class="header__hamburger" id="hamburgerBtn" aria-label="Toggle menu" aria-expanded="false" aria-controls="mainNav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Hero Section -->
+    <section class="hero" id="home" aria-label="Hero">
+      <div class="hero__bg-shapes" aria-hidden="true">
+        <div class="hero__shape hero__shape--1"></div>
+        <div class="hero__shape hero__shape--2"></div>
+        <div class="hero__shape hero__shape--3"></div>
+      </div>
+      <div class="container hero__container">
+        <div class="hero__content">
+          <span class="hero__badge fade-up">Award-Winning Construction</span>
+          <h1 class="hero__title">
+            <span class="hero__typing" id="heroTyping">Building Dreams</span>
+            <span class="hero__title-accent">Into Reality</span>
+          </h1>
+          <p class="hero__subtitle fade-up delay-1">Premium Construction & Renovation</p>
+          <p class="hero__desc fade-up delay-2">We transform spaces with precision craftsmanship, innovative design, and unwavering commitment to quality. Your vision, expertly built.</p>
+          <div class="hero__buttons fade-up delay-3">
+            <a href="#contact" class="btn btn--primary btn--ripple">Start Your Project</a>
+            <a href="#projects" class="btn btn--outline btn--ripple">View Our Work</a>
+          </div>
+          <div class="hero__trust fade-up delay-4">
+            <div class="hero__trust-item">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <span>Licensed & Insured</span>
+            </div>
+            <div class="hero__trust-item">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span>500+ Projects</span>
+            </div>
+            <div class="hero__trust-item">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+              <span>15 Year Warranty</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero__visual" id="heroParallax">
+          <div class="hero__image-wrapper">
+            <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80" alt="Modern construction project with architectural design" class="hero__image" loading="eager">
+          </div>
+          <div class="hero__float-card hero__float-card--1 glass">
+            <div class="hero__float-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <strong>4.9 Rating</strong>
+            <span>200+ Reviews</span>
+          </div>
+          <div class="hero__float-card hero__float-card--2 glass">
+            <strong>500+</strong>
+            <span>Projects Completed</span>
+          </div>
+          <div class="hero__float-card hero__float-card--3 glass">
+            <strong>15 Years</strong>
+            <span>Experience</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Client Logo Strip -->
+    <section class="clients" aria-label="Trusted by leading companies">
+      <div class="clients__track-wrapper">
+        <div class="clients__track" aria-hidden="true">
+          <div class="clients__logo">Meridian<span>Build</span></div>
+          <div class="clients__logo">Urban<span>Edge</span></div>
+          <div class="clients__logo">Stone<span>Craft</span></div>
+          <div class="clients__logo">Nova<span>Homes</span></div>
+          <div class="clients__logo">Elite<span>Design</span></div>
+          <div class="clients__logo">Prime<span>Construct</span></div>
+          <div class="clients__logo">Atlas<span>Renovation</span></div>
+          <div class="clients__logo">Vertex<span>Living</span></div>
+          <div class="clients__logo">Meridian<span>Build</span></div>
+          <div class="clients__logo">Urban<span>Edge</span></div>
+          <div class="clients__logo">Stone<span>Craft</span></div>
+          <div class="clients__logo">Nova<span>Homes</span></div>
+          <div class="clients__logo">Elite<span>Design</span></div>
+          <div class="clients__logo">Prime<span>Construct</span></div>
+          <div class="clients__logo">Atlas<span>Renovation</span></div>
+          <div class="clients__logo">Vertex<span>Living</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistics -->
+    <section class="stats" id="stats" aria-label="Company statistics">
+      <div class="container stats__container">
+        <div class="stats__item reveal">
+          <span class="stats__number" data-target="500" data-suffix="+">0</span>
+          <span class="stats__label">Projects Completed</span>
+        </div>
+        <div class="stats__item reveal">
+          <span class="stats__number" data-target="450" data-suffix="+">0</span>
+          <span class="stats__label">Happy Clients</span>
+        </div>
+        <div class="stats__item reveal">
+          <span class="stats__number" data-target="35" data-suffix="">0</span>
+          <span class="stats__label">Awards Won</span>
+        </div>
+        <div class="stats__item reveal">
+          <span class="stats__number" data-target="15" data-suffix="">0</span>
+          <span class="stats__label">Years Experience</span>
+        </div>
+        <div class="stats__item reveal">
+          <span class="stats__number" data-target="48" data-suffix="">0</span>
+          <span class="stats__label">Team Members</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about__grid">
+          <div class="about__visual reveal-left">
+            <div class="about__collage">
+              <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&q=80" alt="Construction team at work" class="about__img about__img--main" loading="lazy">
+              <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80" alt="Modern building architecture" class="about__img about__img--secondary" loading="lazy">
+              <div class="about__badge">
+                <span class="about__badge-number">15+</span>
+                <span class="about__badge-text">Years of Excellence</span>
+              </div>
+            </div>
+          </div>
+          <div class="about__content reveal-right">
+            <span class="section__tag">About Us</span>
+            <h2 class="section__title" id="about-heading">Crafting Spaces That Inspire</h2>
+            <p class="about__text">Founded in 2011, BuildCraft Pro has grown from a small local contractor into a premier construction and renovation company. We combine traditional craftsmanship with cutting-edge technology to deliver exceptional results.</p>
+            <div class="about__mission">
+              <div class="about__mission-item">
+                <h3>Our Mission</h3>
+                <p>To deliver outstanding construction services that exceed expectations while maintaining integrity, safety, and sustainability.</p>
+              </div>
+              <div class="about__mission-item">
+                <h3>Our Vision</h3>
+                <p>To be the most trusted name in construction and renovation, setting industry standards for quality and innovation.</p>
+              </div>
+            </div>
+            <p class="about__promise"><strong>Quality Promise:</strong> Every project receives our full attention, premium materials, and a satisfaction guarantee backed by a 15-year warranty.</p>
+            <div class="about__features">
+              <div class="about__feature-card">
+                <div class="about__feature-icon">&#128101;</div>
+                <h4>Expert Team</h4>
+                <p>Certified professionals</p>
+              </div>
+              <div class="about__feature-card">
+                <div class="about__feature-icon">&#9989;</div>
+                <h4>Certified</h4>
+                <p>Licensed & insured</p>
+              </div>
+              <div class="about__feature-card">
+                <div class="about__feature-icon">&#127793;</div>
+                <h4>Eco Friendly</h4>
+                <p>Sustainable practices</p>
+              </div>
+              <div class="about__feature-card">
+                <div class="about__feature-icon">&#9881;</div>
+                <h4>Modern Equipment</h4>
+                <p>Latest technology</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section section--grey" id="services" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__tag">Our Services</span>
+          <h2 class="section__title" id="services-heading">Comprehensive Construction Solutions</h2>
+          <p class="section__desc">From concept to completion, we offer a full range of construction and renovation services tailored to your needs.</p>
+        </div>
+        <div class="services__grid">
+          <article class="service-card reveal">
+            <div class="service-card__image">
+              <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?w=600&q=80" alt="Kitchen renovation" loading="lazy">
+              <div class="service-card__icon">&#127859;</div>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Kitchen Renovation</h3>
+              <p class="service-card__desc">Custom kitchen designs with premium cabinetry, countertops, and modern appliances.</p>
+              <a href="#contact" class="service-card__link">Read More <span>&rarr;</span></a>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__image">
+              <img src="https://images.unsplash.com/photo-1552324727-6f7917cb932f?w=600&q=80" alt="Bathroom remodeling" loading="lazy">
+              <div class="service-card__icon">&#128704;</div>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Bathroom Remodeling</h3>
+              <p class="service-card__desc">Luxurious bathroom transformations with spa-like features and elegant finishes.</p>
+              <a href="#contact" class="service-card__link">Read More <span>&rarr;</span></a>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__image">
+              <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600&q=80" alt="Interior design" loading="lazy">
+              <div class="service-card__icon">&#127968;</div>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Interior Design</h3>
+              <p class="service-card__desc">Thoughtful interior spaces that blend aesthetics with functionality.</p>
+              <a href="#contact" class="service-card__link">Read More <span>&rarr;</span></a>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__image">
+              <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80" alt="Exterior renovation" loading="lazy">
+              <div class="service-card__icon">&#127968;</div>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Exterior Renovation</h3>
+              <p class="service-card__desc">Enhance curb appeal with siding, landscaping, and architectural upgrades.</p>
+              <a href="#contact" class="service-card__link">Read More <span>&rarr;</span></a>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__image">
+              <img src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=600&q=80" alt="Painting services" loading="lazy">
+              <div class="service-card__icon">&#127912;</div>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Painting</h3>
+              <p class="service-card__desc">Professional interior and exterior painting with premium, lasting finishes.</p>
+              <a href="#contact" class="service-card__link">Read More <span>&rarr;</span></a>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__image">
+              <img src="https://images.unsplash.com/photo-1615873968403-89e068629265?w=600&q=80" alt="Flooring installation" loading="lazy">
+              <div class="service-card__icon">&#9647;</div>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Flooring</h3>
+              <p class="service-card__desc">Hardwood, tile, laminate, and luxury vinyl installation by experts.</p>
+              <a href="#contact" class="service-card__link">Read More <span>&rarr;</span></a>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__image">
+              <img src="https://images.unsplash.com/photo-1632778149955-e80ddb8ee231?w=600&q=80" alt="Roofing services" loading="lazy">
+              <div class="service-card__icon">&#9968;</div>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Roofing</h3>
+              <p class="service-card__desc">Complete roofing solutions from repair to full replacement.</p>
+              <a href="#contact" class="service-card__link">Read More <span>&rarr;</span></a>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__image">
+              <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&q=80" alt="Electrical services" loading="lazy">
+              <div class="service-card__icon">&#9889;</div>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Electrical</h3>
+              <p class="service-card__desc">Safe, code-compliant electrical installations and upgrades.</p>
+              <a href="#contact" class="service-card__link">Read More <span>&rarr;</span></a>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__image">
+              <img src="https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=600&q=80" alt="Plumbing services" loading="lazy">
+              <div class="service-card__icon">&#128167;</div>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Plumbing</h3>
+              <p class="service-card__desc">Expert plumbing for new installations, repairs, and renovations.</p>
+              <a href="#contact" class="service-card__link">Read More <span>&rarr;</span></a>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__image">
+              <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" alt="Commercial renovation" loading="lazy">
+              <div class="service-card__icon">&#127970;</div>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Commercial Renovation</h3>
+              <p class="service-card__desc">Office, retail, and commercial space transformations on schedule.</p>
+              <a href="#contact" class="service-card__link">Read More <span>&rarr;</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why section" id="why" aria-labelledby="why-heading">
+      <div class="container">
+        <div class="why__grid">
+          <div class="why__visual reveal-left">
+            <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=700&q=80" alt="Construction professional reviewing blueprints" class="why__image" loading="lazy">
+            <div class="why__visual-badge glass">
+              <strong>98%</strong>
+              <span>Client Satisfaction</span>
+            </div>
+          </div>
+          <div class="why__content reveal-right">
+            <span class="section__tag">Why Choose Us</span>
+            <h2 class="section__title" id="why-heading">The BuildCraft Difference</h2>
+            <p class="section__desc">We don't just build — we create lasting relationships through exceptional service and unmatched quality.</p>
+            <ul class="why__list">
+              <li class="why__item">
+                <span class="why__icon">&#128220;</span>
+                <div><strong>Licensed & Certified</strong><p>Fully licensed contractors with industry certifications</p></div>
+              </li>
+              <li class="why__item">
+                <span class="why__icon">&#128176;</span>
+                <div><strong>Affordable Pricing</strong><p>Competitive rates without compromising quality</p></div>
+              </li>
+              <li class="why__item">
+                <span class="why__icon">&#128142;</span>
+                <div><strong>Premium Materials</strong><p>Only the finest materials from trusted suppliers</p></div>
+              </li>
+              <li class="why__item">
+                <span class="why__icon">&#128737;</span>
+                <div><strong>15-Year Warranty</strong><p>Comprehensive warranty on all our work</p></div>
+              </li>
+              <li class="why__item">
+                <span class="why__icon">&#128200;</span>
+                <div><strong>Transparent Pricing</strong><p>Detailed quotes with no hidden fees</p></div>
+              </li>
+              <li class="why__item">
+                <span class="why__icon">&#128222;</span>
+                <div><strong>24/7 Support</strong><p>Round-the-clock emergency support available</p></div>
+              </li>
+              <li class="why__item">
+                <span class="why__icon">&#128101;</span>
+                <div><strong>Experienced Team</strong><p>48 skilled professionals at your service</p></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Showcase -->
+    <section class="projects section section--grey" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__tag">Our Portfolio</span>
+          <h2 class="section__title" id="projects-heading">Featured Projects</h2>
+          <p class="section__desc">Explore our portfolio of completed projects showcasing our craftsmanship and attention to detail.</p>
+        </div>
+        <div class="projects__filters reveal" role="tablist" aria-label="Project categories">
+          <button class="projects__filter active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="projects__filter" data-filter="kitchen" role="tab" aria-selected="false">Kitchen</button>
+          <button class="projects__filter" data-filter="bathroom" role="tab" aria-selected="false">Bathroom</button>
+          <button class="projects__filter" data-filter="commercial" role="tab" aria-selected="false">Commercial</button>
+          <button class="projects__filter" data-filter="exterior" role="tab" aria-selected="false">Exterior</button>
+          <button class="projects__filter" data-filter="interior" role="tab" aria-selected="false">Interior</button>
+          <button class="projects__filter" data-filter="luxury" role="tab" aria-selected="false">Luxury Homes</button>
+        </div>
+        <div class="projects__grid" id="projectsGrid">
+          <article class="project-card reveal" data-category="kitchen luxury">
+            <div class="project-card__image">
+              <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80" alt="Modern luxury kitchen renovation" loading="lazy">
+              <div class="project-card__overlay">
+                <h3 class="project-card__title">Skyline Kitchen</h3>
+                <p class="project-card__location">Manhattan, NY</p>
+                <div class="project-card__meta">
+                  <span>8 Weeks</span>
+                  <span>$85,000</span>
+                </div>
+                <p class="project-card__desc">Complete kitchen transformation with custom cabinetry and marble countertops.</p>
+                <button class="project-card__btn" data-project="0">View Details</button>
+              </div>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="bathroom luxury">
+            <div class="project-card__image">
+              <img src="https://images.unsplash.com/photo-1552324727-6f7917cb932f?w=600&q=80" alt="Spa bathroom remodel" loading="lazy">
+              <div class="project-card__overlay">
+                <h3 class="project-card__title">Serenity Spa Bath</h3>
+                <p class="project-card__location">Beverly Hills, CA</p>
+                <div class="project-card__meta">
+                  <span>6 Weeks</span>
+                  <span>$62,000</span>
+                </div>
+                <p class="project-card__desc">Luxury spa bathroom with heated floors and rainfall shower system.</p>
+                <button class="project-card__btn" data-project="1">View Details</button>
+              </div>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="commercial">
+            <div class="project-card__image">
+              <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" alt="Modern office renovation" loading="lazy">
+              <div class="project-card__overlay">
+                <h3 class="project-card__title">Tech Hub Office</h3>
+                <p class="project-card__location">Austin, TX</p>
+                <div class="project-card__meta">
+                  <span>12 Weeks</span>
+                  <span>$250,000</span>
+                </div>
+                <p class="project-card__desc">Open-concept office space with collaborative zones and modern amenities.</p>
+                <button class="project-card__btn" data-project="2">View Details</button>
+              </div>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="exterior">
+            <div class="project-card__image">
+              <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80" alt="Exterior home renovation" loading="lazy">
+              <div class="project-card__overlay">
+                <h3 class="project-card__title">Coastal Revival</h3>
+                <p class="project-card__location">Miami, FL</p>
+                <div class="project-card__meta">
+                  <span>10 Weeks</span>
+                  <span>$120,000</span>
+                </div>
+                <p class="project-card__desc">Complete exterior makeover with new siding, windows, and landscaping.</p>
+                <button class="project-card__btn" data-project="3">View Details</button>
+              </div>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="interior">
+            <div class="project-card__image">
+              <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600&q=80" alt="Interior design project" loading="lazy">
+              <div class="project-card__overlay">
+                <h3 class="project-card__title">Minimalist Living</h3>
+                <p class="project-card__location">Seattle, WA</p>
+                <div class="project-card__meta">
+                  <span>5 Weeks</span>
+                  <span>$45,000</span>
+                </div>
+                <p class="project-card__desc">Clean, minimalist interior with custom built-ins and natural lighting.</p>
+                <button class="project-card__btn" data-project="4">View Details</button>
+              </div>
+            </div>
+          </article>
+          <article class="project-card reveal" data-category="luxury kitchen">
+            <div class="project-card__image">
+              <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80" alt="Luxury home kitchen" loading="lazy">
+              <div class="project-card__overlay">
+                <h3 class="project-card__title">Estate Kitchen</h3>
+                <p class="project-card__location">Greenwich, CT</p>
+                <div class="project-card__meta">
+                  <span>14 Weeks</span>
+                  <span>$180,000</span>
+                </div>
+                <p class="project-card__desc">Grand estate kitchen with butler's pantry and professional-grade appliances.</p>
+                <button class="project-card__btn" data-project="5">View Details</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process Timeline -->
+    <section class="process section" id="process" aria-labelledby="process-heading">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__tag">Our Process</span>
+          <h2 class="section__title" id="process-heading">How We Work</h2>
+          <p class="section__desc">A proven six-step process that ensures your project is completed on time, on budget, and to the highest standards.</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline__line" aria-hidden="true"><div class="timeline__line-fill" id="timelineFill"></div></div>
+          <div class="timeline__item reveal">
+            <div class="timeline__number">01</div>
+            <div class="timeline__icon">&#128172;</div>
+            <h3 class="timeline__title">Consultation</h3>
+            <p class="timeline__desc">We listen to your vision, assess your space, and discuss your goals and budget.</p>
+          </div>
+          <div class="timeline__item reveal">
+            <div class="timeline__number">02</div>
+            <div class="timeline__icon">&#128203;</div>
+            <h3 class="timeline__title">Planning</h3>
+            <p class="timeline__desc">Detailed project planning with timelines, permits, and material selections.</p>
+          </div>
+          <div class="timeline__item reveal">
+            <div class="timeline__number">03</div>
+            <div class="timeline__icon">&#9998;</div>
+            <h3 class="timeline__title">Design</h3>
+            <p class="timeline__desc">3D renderings and design mockups to visualize your finished space.</p>
+          </div>
+          <div class="timeline__item reveal">
+            <div class="timeline__number">04</div>
+            <div class="timeline__icon">&#128736;</div>
+            <h3 class="timeline__title">Construction</h3>
+            <p class="timeline__desc">Expert craftsmen bring your design to life with precision and care.</p>
+          </div>
+          <div class="timeline__item reveal">
+            <div class="timeline__number">05</div>
+            <div class="timeline__icon">&#128269;</div>
+            <h3 class="timeline__title">Inspection</h3>
+            <p class="timeline__desc">Rigorous quality checks at every stage to ensure perfection.</p>
+          </div>
+          <div class="timeline__item reveal">
+            <div class="timeline__number">06</div>
+            <div class="timeline__icon">&#127881;</div>
+            <h3 class="timeline__title">Completion</h3>
+            <p class="timeline__desc">Final walkthrough, cleanup, and handover of your dream space.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section" id="video" aria-label="Company video">
+      <div class="video-section__bg">
+        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1400&q=80" alt="" loading="lazy" aria-hidden="true">
+      </div>
+      <div class="video-section__overlay"></div>
+      <div class="container video-section__content reveal">
+        <h2 class="video-section__title">See Our Work in Action</h2>
+        <p class="video-section__desc">Watch how we transform ordinary spaces into extraordinary living environments.</p>
+        <button class="video-section__play" id="videoPlayBtn" aria-label="Play company video">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+        </button>
+      </div>
+    </section>
+
+    <!-- Video Modal -->
+    <div class="modal" id="videoModal" role="dialog" aria-modal="true" aria-label="Video player" hidden>
+      <div class="modal__backdrop" id="videoModalBackdrop"></div>
+      <div class="modal__content">
+        <button class="modal__close" id="videoModalClose" aria-label="Close video">&times;</button>
+        <div class="modal__video-wrapper">
+          <iframe id="videoIframe" src="" title="BuildCraft Pro company video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team Section -->
+    <section class="team section section--grey" id="team" aria-labelledby="team-heading">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__tag">Our Team</span>
+          <h2 class="section__title" id="team-heading">Meet the Experts</h2>
+          <p class="section__desc">Our dedicated team of professionals brings decades of combined experience to every project.</p>
+        </div>
+        <div class="team__grid">
+          <article class="team-card reveal">
+            <div class="team-card__image">
+              <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80" alt="James Mitchell - CEO" loading="lazy">
+              <div class="team-card__social">
+                <a href="#" aria-label="James Mitchell on LinkedIn">in</a>
+                <a href="#" aria-label="James Mitchell on Twitter">X</a>
+              </div>
+            </div>
+            <h3 class="team-card__name">James Mitchell</h3>
+            <p class="team-card__role">CEO & Founder</p>
+          </article>
+          <article class="team-card reveal">
+            <div class="team-card__image">
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80" alt="Sarah Chen - Lead Designer" loading="lazy">
+              <div class="team-card__social">
+                <a href="#" aria-label="Sarah Chen on LinkedIn">in</a>
+                <a href="#" aria-label="Sarah Chen on Twitter">X</a>
+              </div>
+            </div>
+            <h3 class="team-card__name">Sarah Chen</h3>
+            <p class="team-card__role">Lead Designer</p>
+          </article>
+          <article class="team-card reveal">
+            <div class="team-card__image">
+              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80" alt="Michael Torres - Project Manager" loading="lazy">
+              <div class="team-card__social">
+                <a href="#" aria-label="Michael Torres on LinkedIn">in</a>
+                <a href="#" aria-label="Michael Torres on Twitter">X</a>
+              </div>
+            </div>
+            <h3 class="team-card__name">Michael Torres</h3>
+            <p class="team-card__role">Project Manager</p>
+          </article>
+          <article class="team-card reveal">
+            <div class="team-card__image">
+              <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80" alt="Emily Rodriguez - Architect" loading="lazy">
+              <div class="team-card__social">
+                <a href="#" aria-label="Emily Rodriguez on LinkedIn">in</a>
+                <a href="#" aria-label="Emily Rodriguez on Twitter">X</a>
+              </div>
+            </div>
+            <h3 class="team-card__name">Emily Rodriguez</h3>
+            <p class="team-card__role">Chief Architect</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials section" id="testimonials" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__tag">Testimonials</span>
+          <h2 class="section__title" id="testimonials-heading">What Our Clients Say</h2>
+        </div>
+        <div class="testimonials__slider" id="testimonialSlider">
+          <div class="testimonials__track" id="testimonialTrack">
+            <div class="testimonial-slide">
+              <div class="testimonial-slide__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <blockquote class="testimonial-slide__text">"BuildCraft Pro transformed our outdated kitchen into a stunning modern space. Their attention to detail and professionalism exceeded all our expectations. Highly recommended!"</blockquote>
+              <div class="testimonial-slide__author">
+                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80" alt="Jennifer Adams" class="testimonial-slide__photo" loading="lazy">
+                <div>
+                  <strong>Jennifer Adams</strong>
+                  <span>Brooklyn, NY</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-slide">
+              <div class="testimonial-slide__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <blockquote class="testimonial-slide__text">"From the initial consultation to the final walkthrough, every step was seamless. The team was punctual, clean, and delivered exactly what they promised. Our bathroom is now a spa retreat."</blockquote>
+              <div class="testimonial-slide__author">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" alt="David Park" class="testimonial-slide__photo" loading="lazy">
+                <div>
+                  <strong>David Park</strong>
+                  <span>Los Angeles, CA</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-slide">
+              <div class="testimonial-slide__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <blockquote class="testimonial-slide__text">"We hired BuildCraft for our office renovation and couldn't be happier. They completed the project ahead of schedule and within budget. The quality of work is outstanding."</blockquote>
+              <div class="testimonial-slide__author">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80" alt="Lisa Thompson" class="testimonial-slide__photo" loading="lazy">
+                <div>
+                  <strong>Lisa Thompson</strong>
+                  <span>Chicago, IL</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-slide">
+              <div class="testimonial-slide__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <blockquote class="testimonial-slide__text">"The exterior renovation completely changed the look of our home. Neighbors constantly ask who did the work. BuildCraft Pro is simply the best in the business."</blockquote>
+              <div class="testimonial-slide__author">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80" alt="Robert Wilson" class="testimonial-slide__photo" loading="lazy">
+                <div>
+                  <strong>Robert Wilson</strong>
+                  <span>Denver, CO</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonials__controls">
+            <button class="testimonials__btn testimonials__btn--prev" id="testimonialPrev" aria-label="Previous testimonial">&larr;</button>
+            <div class="testimonials__dots" id="testimonialDots" role="tablist" aria-label="Testimonial navigation"></div>
+            <button class="testimonials__btn testimonials__btn--next" id="testimonialNext" aria-label="Next testimonial">&rarr;</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq section section--grey" id="faq" aria-labelledby="faq-heading">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__tag">FAQ</span>
+          <h2 class="section__title" id="faq-heading">Frequently Asked Questions</h2>
+          <p class="section__desc">Find answers to common questions about our services, process, and policies.</p>
+        </div>
+        <div class="faq__list" id="faqList">
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              <span>How long does a typical kitchen renovation take?</span>
+              <span class="faq__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq__answer">
+              <p>A typical kitchen renovation takes 6-10 weeks depending on the scope of work. Custom cabinetry and specialty materials may extend the timeline. We provide a detailed schedule during the planning phase.</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              <span>Do you offer free consultations and estimates?</span>
+              <span class="faq__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq__answer">
+              <p>Yes! We offer complimentary in-home consultations and detailed estimates. Our team will assess your space, discuss your vision, and provide a transparent quote with no obligation.</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              <span>Are you licensed and insured?</span>
+              <span class="faq__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq__answer">
+              <p>Absolutely. BuildCraft Pro is fully licensed, bonded, and insured. All our contractors hold relevant certifications and we maintain comprehensive liability and workers' compensation insurance.</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              <span>What warranty do you provide on your work?</span>
+              <span class="faq__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq__answer">
+              <p>We stand behind our work with a comprehensive 15-year warranty on structural work and a 5-year warranty on finishes. Material warranties from manufacturers apply separately.</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              <span>Can I stay in my home during renovation?</span>
+              <span class="faq__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq__answer">
+              <p>In most cases, yes. We take measures to minimize disruption, including dust containment systems and maintaining access to essential areas. For major renovations, temporary relocation may be recommended.</p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              <span>How do you handle project changes or additions?</span>
+              <span class="faq__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq__answer">
+              <p>We understand plans can evolve. Any changes are documented through a change order process with updated pricing and timeline adjustments, ensuring full transparency before proceeding.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call To Action -->
+    <section class="cta" id="cta" aria-labelledby="cta-heading">
+      <div class="cta__shapes" aria-hidden="true">
+        <div class="cta__shape cta__shape--1"></div>
+        <div class="cta__shape cta__shape--2"></div>
+        <div class="cta__shape cta__shape--3"></div>
+      </div>
+      <div class="container cta__container reveal">
+        <h2 class="cta__title" id="cta-heading">Ready to Transform Your Space?</h2>
+        <p class="cta__desc">Let's bring your vision to life. Get a free consultation and quote from our expert team today.</p>
+        <a href="#contact" class="btn btn--white btn--ripple btn--lg">Get Your Free Quote</a>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__tag">Contact Us</span>
+          <h2 class="section__title" id="contact-heading">Let's Start Your Project</h2>
+        </div>
+        <div class="contact__grid">
+          <div class="contact__info reveal-left">
+            <div class="contact__item">
+              <div class="contact__icon">&#128205;</div>
+              <div>
+                <h3>Address</h3>
+                <p>742 Construction Blvd, Suite 200<br>New York, NY 10001</p>
+              </div>
+            </div>
+            <div class="contact__item">
+              <div class="contact__icon">&#128222;</div>
+              <div>
+                <h3>Phone</h3>
+                <p><a href="tel:+12125551234">(212) 555-1234</a></p>
+              </div>
+            </div>
+            <div class="contact__item">
+              <div class="contact__icon">&#9993;</div>
+              <div>
+                <h3>Email</h3>
+                <p><a href="mailto:hello@buildcraftpro.com">hello@buildcraftpro.com</a></p>
+              </div>
+            </div>
+            <div class="contact__item">
+              <div class="contact__icon">&#128337;</div>
+              <div>
+                <h3>Working Hours</h3>
+                <p>Mon - Fri: 8:00 AM - 6:00 PM<br>Sat: 9:00 AM - 2:00 PM</p>
+              </div>
+            </div>
+            <div class="contact__map">
+              <iframe src="https://maps.google.com/maps?q=New+York+NY&t=&z=13&ie=UTF8&iwloc=&output=embed" title="BuildCraft Pro office location" loading="lazy" allowfullscreen></iframe>
+            </div>
+          </div>
+          <form class="contact__form reveal-right" id="contactForm" novalidate>
+            <div class="form__group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" required autocomplete="name" placeholder="John Doe">
+              <span class="form__error" id="nameError"></span>
+            </div>
+            <div class="form__group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required autocomplete="email" placeholder="john@example.com">
+              <span class="form__error" id="emailError"></span>
+            </div>
+            <div class="form__group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="(555) 123-4567">
+              <span class="form__error" id="phoneError"></span>
+            </div>
+            <div class="form__row">
+              <div class="form__group">
+                <label for="service">Service *</label>
+                <select id="service" name="service" required>
+                  <option value="">Select a service</option>
+                  <option value="kitchen">Kitchen Renovation</option>
+                  <option value="bathroom">Bathroom Remodeling</option>
+                  <option value="interior">Interior Design</option>
+                  <option value="exterior">Exterior Renovation</option>
+                  <option value="commercial">Commercial Renovation</option>
+                  <option value="other">Other</option>
+                </select>
+                <span class="form__error" id="serviceError"></span>
+              </div>
+              <div class="form__group">
+                <label for="budget">Budget Range</label>
+                <select id="budget" name="budget">
+                  <option value="">Select budget</option>
+                  <option value="under-25k">Under $25,000</option>
+                  <option value="25k-50k">$25,000 - $50,000</option>
+                  <option value="50k-100k">$50,000 - $100,000</option>
+                  <option value="100k-plus">$100,000+</option>
+                </select>
+              </div>
+            </div>
+            <div class="form__group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Tell us about your project..."></textarea>
+              <span class="form__error" id="messageError"></span>
+            </div>
+            <button type="submit" class="btn btn--primary btn--ripple btn--full">Send Message</button>
+            <div class="form__success" id="formSuccess" hidden>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <p>Thank you! Your message has been sent successfully. We'll get back to you within 24 hours.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__col">
+          <a href="#home" class="footer__logo">BuildCraft<span>Pro</span></a>
+          <p class="footer__desc">Premium construction and renovation services. Building dreams into reality since 2011.</p>
+          <div class="footer__social">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">ig</a>
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="Twitter">X</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__title">Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#process">Our Process</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__title">Services</h4>
+          <ul class="footer__links">
+            <li><a href="#services">Kitchen Renovation</a></li>
+            <li><a href="#services">Bathroom Remodeling</a></li>
+            <li><a href="#services">Interior Design</a></li>
+            <li><a href="#services">Commercial Renovation</a></li>
+            <li><a href="#services">Exterior Renovation</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__title">Newsletter</h4>
+          <p class="footer__newsletter-text">Subscribe for tips, trends, and exclusive offers.</p>
+          <form class="footer__newsletter" id="newsletterForm">
+            <input type="email" placeholder="Your email" aria-label="Email for newsletter" required>
+            <button type="submit" aria-label="Subscribe">&#8594;</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 BuildCraft Pro. All rights reserved.</p>
+        <button class="footer__top" id="backToTop" aria-label="Back to top">Back To Top &#8593;</button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project Detail Modal -->
+  <div class="modal" id="projectModal" role="dialog" aria-modal="true" aria-label="Project details" hidden>
+    <div class="modal__backdrop" id="projectModalBackdrop"></div>
+    <div class="modal__content modal__content--project">
+      <button class="modal__close" id="projectModalClose" aria-label="Close project details">&times;</button>
+      <div class="modal__project" id="projectModalBody"></div>
+    </div>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+  <div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+
+  <script src="js/main.js" defer></script>
+  <script src="js/animation.js" defer></script>
+  <script src="js/counter.js" defer></script>
+  <script src="js/slider.js" defer></script>
+  <script src="js/faq.js" defer></script>
+</body>
+</html>
