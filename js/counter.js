@@ -1,5 +1,5 @@
 /**
- * BuildCraft Pro — Counter Animation
+ * MS Logistics — Counter Animation
  * Animated number counters triggered on scroll
  */
 

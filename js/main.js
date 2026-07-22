@@ -1,5 +1,5 @@
 /**
- * BuildCraft Pro — Main JavaScript
+ * MS Logistics — Main JavaScript
  * Core functionality: loader, header, navigation, forms, modals, cursor
  */
 
@@ -32,52 +32,52 @@
 
   const PROJECTS = [
     {
-      title: 'Skyline Kitchen',
-      location: 'Manhattan, NY',
-      duration: '8 Weeks',
-      budget: '$85,000',
-      image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80',
-      desc: 'Complete kitchen transformation featuring custom Italian cabinetry, Calacatta marble countertops, and a professional-grade appliance package. This luxury renovation included structural modifications, new plumbing, and smart home integration.'
+      title: 'Household Move',
+      location: 'Kathmandu, Nepal',
+      duration: 'Residential',
+      budget: 'Door-to-Door',
+      image: 'https://images.unsplash.com/photo-1607082348824-0a96f2a4aea9?w=800&q=80',
+      desc: 'Export-quality packing for a complete household relocation with zero-damage handling. Professional movers carefully packed, transported, and delivered every item across all 77 districts.'
     },
     {
-      title: 'Serenity Spa Bath',
-      location: 'Beverly Hills, CA',
-      duration: '6 Weeks',
-      budget: '$62,000',
-      image: 'https://images.unsplash.com/photo-1552324727-6f7917cb932f?w=800&q=80',
-      desc: 'A spa-inspired bathroom retreat with heated marble floors, a freestanding soaking tub, dual rainfall shower heads, and custom vanity with integrated lighting. Premium fixtures and natural stone throughout.'
+      title: 'Corporate Cargo',
+      location: 'Lalitpur, Nepal',
+      duration: 'Commercial',
+      budget: 'Asset Tracking',
+      image: 'https://images.unsplash.com/photo-1494412651409-8963ce7935a7?w=800&q=80',
+      desc: 'Office relocation with project management and full business-continuity planning. Completed ahead of schedule with GPS-equipped fleet tracking and minimal business disruption.'
     },
     {
-      title: 'Tech Hub Office',
-      location: 'Austin, TX',
-      duration: '12 Weeks',
-      budget: '$250,000',
-      image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80',
-      desc: 'Modern 15,000 sq ft office renovation with open collaborative spaces, private meeting pods, ergonomic workstations, and a full-service kitchen. Completed on schedule with minimal business disruption.'
+      title: 'Diplomatic Move',
+      location: 'Embassy District, Kathmandu',
+      duration: 'Diplomatic',
+      budget: 'Confidential',
+      image: 'https://images.unsplash.com/photo-1518611012118-696072aa5799?w=800&q=80',
+      desc: 'Protocol-aware embassy relocation with direct customs links and discreet handling. Every item arrived without a single scratch, trusted by diplomatic missions for confidential moves.'
     },
     {
-      title: 'Coastal Revival',
-      location: 'Miami, FL',
-      duration: '10 Weeks',
-      budget: '$120,000',
-      image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80',
-      desc: 'Complete exterior makeover including new fiber cement siding, impact-resistant windows, redesigned front porch, and tropical landscaping. Enhanced curb appeal while improving energy efficiency.'
+      title: 'Air Freight Shipment',
+      location: 'Tribhuvan International Airport',
+      duration: 'Freight',
+      budget: 'Global Air',
+      image: 'https://images.unsplash.com/photo-1494412519320-aa313df5f8f7?w=800&q=80',
+      desc: 'Global air freight routing via TIA with real-time coordination and customs clearance. Multi-modal freight network connecting Nepal to international destinations with zero-damage commitment.'
     },
     {
-      title: 'Minimalist Living',
-      location: 'Seattle, WA',
-      duration: '5 Weeks',
-      budget: '$45,000',
-      image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80',
-      desc: 'Clean, Scandinavian-inspired interior with custom built-in storage, natural oak flooring, and floor-to-ceiling windows. Every element was carefully curated for simplicity and functionality.'
+      title: 'Secure Storage',
+      location: 'Balkumari, Lalitpur',
+      duration: 'Warehousing',
+      budget: '24/7 Security',
+      image: 'https://images.unsplash.com/photo-1553413077-190dd305871c?w=800&q=80',
+      desc: 'Climate-controlled, GPS-monitored warehousing with full inventory tracking. Secure storage hub providing complete peace of mind for household and commercial goods.'
     },
     {
-      title: 'Estate Kitchen',
-      location: 'Greenwich, CT',
-      duration: '14 Weeks',
-      budget: '$180,000',
-      image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80',
-      desc: 'Grand estate kitchen with butler\'s pantry, wine cellar access, dual islands, and top-tier Wolf and Sub-Zero appliances. Handcrafted details and premium materials throughout this 800 sq ft culinary space.'
+      title: 'Ocean Freight',
+      location: 'Kolkata & Haldia Ports',
+      duration: 'International',
+      budget: 'Sea Freight',
+      image: 'https://images.unsplash.com/photo-1577416419506-3f0e1f9d4f8e?w=800&q=80',
+      desc: 'Multi-modal ocean freight via Kolkata and Haldia ports with cross-border customs integration. Seamless international shipping with direct customs links and zero-damage standard.'
     }
   ];
 

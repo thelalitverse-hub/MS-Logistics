@@ -1,20 +1,20 @@
-# BuildCraft Pro — Construction & Renovation Website
+# MS Logistics Private Limited — Logistics & Freight Website
 
-A premium, fully responsive construction and renovation company website built with **HTML5**, **CSS3**, and **Vanilla JavaScript** — no frameworks or external UI libraries.
+A premium, fully responsive logistics and freight company website built with **HTML5**, **CSS3**, and **Vanilla JavaScript** — no frameworks or external UI libraries.
 
 ## Features
 
 - **Premium Design** — Luxury modern aesthetic with glassmorphism, soft gradients, and elegant spacing
 - **Fully Responsive** — Optimized for desktop, laptop, tablet, mobile, and small mobile
 - **Rich Animations** — Scroll reveals, parallax, typing effect, counters, floating cards, and more
-- **Interactive Components** — Testimonial slider, FAQ accordion, project filters, video modal, contact form validation
+- **Interactive Components** — Testimonial slider, FAQ accordion, gallery filters, video modal, contact form validation
 - **Accessibility** — ARIA labels, keyboard navigation, focus states, and semantic HTML5
 - **SEO Ready** — Meta tags, Open Graph, proper heading structure, and lazy-loaded images
 
 ## Project Structure
 
 ```
-construction-website/
+ms-logistics/
 ├── index.html
 ├── css/
 │   ├── style.css
@@ -26,13 +26,6 @@ construction-website/
 │   ├── counter.js
 │   ├── slider.js
 │   └── faq.js
-├── images/
-│   ├── hero/
-│   ├── about/
-│   ├── services/
-│   ├── projects/
-│   ├── testimonials/
-│   └── icons/
 └── README.md
 ```
 
@@ -61,14 +54,14 @@ npx serve .
 |-----------|-----------|--------------------|
 | Primary   | `#1F6D45` | Buttons, accents   |
 | Secondary | `#F7F8FA` | Section backgrounds|
-| Dark      | `#202124` | Text, footer       |
+| Dark      | `#202124` | Text, footer        |
 | Accent    | `#D8A95E` | Highlights, stars  |
 | White     | `#FFFFFF` | Backgrounds        |
 | Grey      | `#8B8B8B` | Body text          |
 
 ## Typography
 
-- **Font:** [Poppins](https://fonts.google.com/specimen/Poppins) (Google Fonts)
+- **Font:** [Poppins](https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap) (Google Fonts)
 - Headings: Bold, large scale
 - Body: 16px, readable line-height
 
@@ -80,9 +73,9 @@ npx serve .
 4. Client Logo Strip (Auto-scroll)
 5. Animated Statistics Counters
 6. About with Image Collage
-7. Services Grid (10 services)
+7. Services Grid (7 services)
 8. Why Choose Us
-9. Project Showcase with Filters
+9. Gallery Showcase with Filters
 10. Process Timeline
 11. Video Section with Modal
 12. Team Cards
@@ -103,7 +96,7 @@ npx serve .
 
 - **Colors:** Edit CSS variables in `css/style.css` (`:root` block)
 - **Content:** Update text and images in `index.html`
-- **Images:** Replace Unsplash URLs with your own images in the `images/` folders
+- **Images:** Replace Unsplash URLs with your own images
 - **Video:** Change the YouTube embed URL in `js/main.js` (`VIDEO_URL` constant)
 
 ## License
@@ -112,4 +105,4 @@ Free to use for personal and commercial projects.
 
 ---
 
-Built with precision by BuildCraft Pro.
+Built with precision by MS Logistics Private Limited.

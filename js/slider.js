@@ -1,5 +1,5 @@
 /**
- * BuildCraft Pro — Slider JavaScript
+ * MS Logistics — Slider JavaScript
  * Testimonial slider with auto-play, dots, and navigation
  */
 

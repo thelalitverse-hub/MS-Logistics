@@ -1,5 +1,5 @@
 /**
- * BuildCraft Pro — Animation JavaScript
+ * MS Logistics — Animation JavaScript
  * Scroll reveals, parallax, typing effect, timeline animation
  */
 
@@ -11,10 +11,10 @@
   const timelineFill = document.getElementById('timelineFill');
 
   const TYPING_PHRASES = [
-    'Building Dreams',
-    'Crafting Spaces',
-    'Creating Homes',
-    'Designing Future'
+    'Packing.',
+    'Warehousing.',
+    'Worldwide Freight.',
+    'Zero-Damage.'
   ];
 
   /* --- Intersection Observer for Reveal Animations --- */

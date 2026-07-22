@@ -1,5 +1,5 @@
 /**
- * BuildCraft Pro — FAQ Accordion
+ * MS Logistics — FAQ Accordion
  * Animated accordion with single-open behavior
  */
 
